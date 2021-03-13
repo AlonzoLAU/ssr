@@ -1053,7 +1053,7 @@ textarea.form-control, textarea.form-control:focus {
 .client-block {
   text-align: center;
   padding: 5px 0;
-  margin: 5vh 55vh;
+  margin: auto 5vh 10px;
   /* margin-bottom: 30px; */
   opacity: .7;
   -webkit-transition: all 0.2s ease-in-out;
