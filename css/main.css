@@ -398,7 +398,8 @@ input[type="submit"]:focus {
 
 .header-photo {
   position: relative;
-  width: 180px;
+  /* width: 180px; */
+  width: 20vh;
   /* margin: 0 auto 30px; */
   margin: 0 auto 4vh;
   z-index: 1;
