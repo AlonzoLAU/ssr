@@ -399,7 +399,8 @@ input[type="submit"]:focus {
 .header-photo {
   position: relative;
   width: 180px;
-  margin: 0 auto 30px;
+  /* margin: 0 auto 30px; */
+  margin: 0 auto 4vh;
   z-index: 1;
 }
 
@@ -446,7 +447,8 @@ input[type="submit"]:focus {
 
 /* --- Social Links --- */
 .social-links {
-  margin: 20px 0;
+  /* margin: 20px 0; */
+  margin: 3vh 0;
 }
 
 .social-links ul {
