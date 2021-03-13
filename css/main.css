@@ -1001,7 +1001,7 @@ textarea.form-control, textarea.form-control:focus {
   padding: 0 25px 15px 25px;
 }
 
-.testimonial img {
+.testimonial .img {
   max-width: 90px;
   max-height: 90px;
   margin: -45px auto 20px;
