@@ -1006,6 +1006,7 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .testimonial .text {
+  word-wrap: break-word; 
   text-align: left;
   font-style: italic;
 }
