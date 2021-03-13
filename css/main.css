@@ -478,7 +478,8 @@ input[type="submit"]:focus {
 /* --- End Social Links --- */
 
 .header-buttons {
-  margin-top: 50px;
+  /* margin-top: 50px; */
+  margin-top: auto;
 }
 
 .header-buttons .btn-primary {
