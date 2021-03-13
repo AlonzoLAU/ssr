@@ -166,7 +166,7 @@
                           </div>
 
 <!--test begin-->
-                          <div id="qrcode" style="width:100px; height:100px; margin-top:15px;">
+                          <div id="qrcode" class="client-block">
                             <script src="js/jquery-2.1.3.min.js"></script>
                             <script type="text/javascript" src="js/qrcode.min.js"></script>
                             <script type="text/javascript">
@@ -179,7 +179,7 @@
                             	// var elText = document.getElementById("ssrurl");
                               var htmlobj= $.ajax({url:"SSRurl.txt",async:false});
                             	// alert(htmlobj.responseText);
-                              console.log(htmlobj.responseText);
+                              // console.log(htmlobj.responseText);
                             // 	if (!elText.value) {
                             // 		alert("Input a text");
                             // 		elText.focus();
@@ -187,7 +187,7 @@
                             // 	}
                             	
                             	qrcode.makeCode(htmlobj.responseText);
-                                // qrcode.makeCode("读文件？");
+                                // qrcode.makeCode("ssr://MTA4LjYxLjE5NC4xNDc6MTAwMDA6YXV0aF9zaGExX3Y0OmFlcy0xMjgtY3RyOnBsYWluOlpHOTFZaTVwYncvP29iZnNwYXJhbT0");
                             }
                             
                             // window.onload = makeCode;
