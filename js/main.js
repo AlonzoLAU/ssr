@@ -71,7 +71,8 @@
 
         $('#contact_form').on('submit', function (e) {
             if (!e.isDefaultPrevented()) {
-                var url = "contact_form/contact_form.php";
+                // var url = "contact_form/contact_form.php";
+                var url = "https://service-1ntb0yoi-1304920488.usw.apigw.tencentcs.com/release/test";
 
                 $.ajax({
                     type: "POST",
