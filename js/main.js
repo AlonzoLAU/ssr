@@ -73,7 +73,7 @@
             if (!e.isDefaultPrevented()) {
                 // var url = "contact_form/contact_form.php";
                 var url = "https://service-kqxq1i60-1304920488.usw.apigw.tencentcs.com/release/test";
-
+                
                 $.ajax({
                     type: "POST",
                     url: url,
