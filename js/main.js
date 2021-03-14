@@ -72,7 +72,7 @@
         $('#contact_form').on('submit', function (e) {
             if (!e.isDefaultPrevented()) {
                 // var url = "contact_form/contact_form.php";
-                var url = "https://service-eaeq3jci-1304920488.usw.apigw.tencentcs.com/release/test";
+                var url = "https://service-8g11ruya-1304920488.usw.apigw.tencentcs.com/release/test";
 
                 $.ajax({
                     type: "POST",
