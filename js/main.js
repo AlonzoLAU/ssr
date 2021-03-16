@@ -72,7 +72,7 @@
         $('#contact_form').on('submit', function (e) {
             if (!e.isDefaultPrevented()) {
                 // var url = "contact_form/contact_form.php";
-                var url = "https://service-kqxq1i60-1304920488.usw.apigw.tencentcs.com/release/test";
+                var url = "https://service-qf9gwmzl-1304920488.sh.apigw.tencentcs.com/release/DialURLByTimer-1615861622";
                 
                 $.ajax({
                     type: "POST",
