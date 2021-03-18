@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>SSR Resources - Alonzo S. Lau</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<meta name="description" content="SSR Resources- Alonzo S. Lau" />
+<meta name="description" content="SSR Resources - Alonzo S. Lau" />
 <meta name="keywords" content="SSR, SSRurl, Alonzo" />
 <meta name="author" content="Alonzo S. Lau" />
 <link rel="shortcut icon" href="rocket.ico">
@@ -39,15 +39,15 @@
       <div class="header-content">
         <div class="header-photo"> <img src="img/alonzo.jpg" alt="Alonzo S. Lau"> </div>
         <div class="header-titles">
-          <h2>Alonzo S. Lau</h2>
-          <h4>Programmer</h4>
+          <h2 i18n="name">Alonzo S. Lau</h2>
+          <h4 i18n="subtitle">Programmer</h4>
         </div>
       </div>
       <ul class="main-menu">
-        <li class="active"> <a href="#home" class="nav-anim"> <span class="menu-icon lnr lnr-home"></span> <span class="link-text">Home</span> </a> </li>
-        <li> <a href="#proxy" class="nav-anim"> <span class="menu-icon lnr lnr-rocket"></span> <span class="link-text">Proxy</span> </a> </li>
-        <li> <a href="#about-me" class="nav-anim"> <span class="menu-icon lnr lnr-user"></span> <span class="link-text">About Me</span> </a> </li>
-        <li> <a href="#contact" class="nav-anim"> <span class="menu-icon lnr lnr-envelope"></span> <span class="link-text">Contact</span> </a> </li>
+        <li class="active"> <a href="#home" class="nav-anim"> <span class="menu-icon lnr lnr-home"></span> <span class="link-text" i18n="home">Home</span> </a> </li>
+        <li> <a href="#about-me" class="nav-anim"> <span class="menu-icon lnr lnr-user"></span> <span class="link-text" i18n="about">About Me</span> </a> </li>
+        <li> <a href="#proxy" class="nav-anim"> <span class="menu-icon lnr lnr-rocket"></span> <span class="link-text" i18n="proxy">Proxy</span> </a> </li>
+        <li> <a href="#contact" class="nav-anim"> <span class="menu-icon lnr lnr-envelope"></span> <span class="link-text" i18n="contact">Contact</span> </a> </li>
       </ul>
       <div class="social-links">
         <ul>
@@ -57,8 +57,8 @@
           <li><a href="https://www.linkedin.com/in/%E5%B4%87-%E5%88%98-4146031a4/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
         </ul>
       </div>
-      <div class="header-buttons"> <a href="https://www.liuchong.ml/" target="_blank" class="btn btn-primary">Homepage</a> </div>
-      <div class="copyrights">© 2021 All rights reserved.</div>
+      <div class="header-buttons"> <a href="https://www.liuchong.ml/" target="_blank" class="btn btn-primary" i18n="homepage">Homepage</a> </div>
+      <div class="copyrights" i18n="copyrights">Alonzo S. Lau © 2021 All rights reserved.</div>
     </header>
     
     <!-- Mobile Navigation -->
@@ -80,16 +80,16 @@
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-12">
                 <div class="title-block">
-                  <h2>Alonzo S. Lau</h2>
+                  <h2 i18n="name">Alonzo S. Lau</h2>
                   <div class="owl-carousel text-rotation">
                     <div class="item">
-                      <div class="sp-subtitle">Programmer</div>
+                      <div class="sp-subtitle" i18n="subtitle-1">Programmer</div>
                     </div>
                     <div class="item">
-                      <div class="sp-subtitle">CS Student @ HIT</div>
+                      <div class="sp-subtitle" i18n="subtitle-2">CS Student @ HIT</div>
                     </div>
                     <div class="item">
-                      <div class="sp-subtitle">An avid fun of Lebron James</div>
+                      <div class="sp-subtitle" i18n="subtitle-3">An avid fun of Lebron James</div>
                     </div>
                   </div>
                 </div>
@@ -99,13 +99,84 @@
         </section>
         <!-- End of Home Subpage --> 
         
+        <!-- About Me Subpage -->
+        <section data-id="about-me" class="animated-section">
+          <div class="page-title">
+            <h2 i18n="p-3">About <span>Me</span></h2>
+          </div>
+          <div class="section-content"> 
+            <!-- Personal Information -->
+            <div class="row">
+              <div class="col-xs-12 col-sm-7">
+                <p i18n="bio">I received my bachelor degree in engineering from the School of Computer Science and Technology of Harbin Institute of Technology in 2020. 
+                  I am a single boy who is addicted to computer technology want to leave my own footprints on the Internet. I’m also an avid fan of LeBron James, 
+                  but I haven not played basketball for a long time.</p>
+              </div>
+              <div class="col-xs-12 col-sm-5">
+                <div class="info-list">
+                  <ul>
+                    <li> <span class="title" i18n="title-1">Age</span> <span class="value">22</span> </li>
+                    <li> <span class="title" i18n="title-2">Residence</span> <span class="value" i18n="state">PRC</span> </li>
+                    <li> <span class="title" i18n="title-3">Address</span> <span class="value" i18n="address">BaoDing, HeBei</span> </li>
+                    <li> <span class="title" i18n="title-4">e-mail</span> <span class="value">1160300207@stu.hit.edu.cn</span> </li>
+                    <li> <span class="title" i18n="title-5">Phone</span> <span class="value">+86 182 3323 8225</span> </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- End of Personal Information -->
+            
+            <div class="white-space-20"></div>
+            
+            <!-- Services -->
+            <div class="row">
+              <div class="col-xs-12 col-sm-12">
+                <div class="block-title">
+                  <h3><b i18n="about-subtitle-1">What </b><span i18n="about-subtitle-2">I Do</span></h3>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6">
+                <div class="col-inner">
+                  <div class="info-list-w-icon">
+                    <div class="info-block-w-icon">
+                      <div class="ci-icon"> <i class="lnr lnr-laptop-phone"></i> </div>
+                      <div class="ci-text">
+                        <h4 i18n="about-sub-1-title">Web Design</h4>
+                        <p i18n="about-sub-1">In a sense, compared to back-end development, the front-end excites me a lot. Perhaps because the front-end products are always like a exquisite artwork, giving me the enjoyment of beauty.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <div class="col-inner">
+                  <div class="info-list-w-icon">
+                    <div class="info-block-w-icon">
+                      <div class="ci-icon"> <i class="lnr lnr-pencil"></i> </div>
+                      <div class="ci-text">
+                        <h4 i18n="about-sub-2-title">Translation</h4>
+                        <p i18n="about-sub-2">I'm not very good at English, but I always don't mind reading English documents, and I am quite willing to translate them into Chinese to help more people.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End of Services --> 
+            
+          </div>
+        </section>
+        <!-- End of About Me Subpage --> 
+        
         <!-- Proxy Subpage -->
         <section data-id="proxy" class="animated-section">
           <div class="section-content">
             <div class="row">
               <div class="col-xs-12 col-sm-12">
                 <div class="page-title">
-                  <h2>SSR <span>Resources</span></h2>
+                  <h2>SSR <span i18n="p-2">Resources</span></h2>
                 </div>
               </div>
             </div>
@@ -122,9 +193,9 @@
               </div>
               <hr>
               <div>
-                <p><em><strong>SSR Client Download Link</strong></em></p>
-                <p>Android Client : <a href="https://gitee.com/HIT-XueBaBa/HIT-XueBaBa.github.io/attach_files/639378/download/shadowsocksr-android-3.5.4.apk">Download Link</a></p>
-                <p>Win PC Client : <a href="https://gitee.com/HIT-XueBaBa/HIT-XueBaBa.github.io/attach_files/639377/download/ShadowsocksR-win-4.9.2.zip">Download Link</a></p>
+                <p><em><strong i18n="link-title">SSR Client Download Link</strong></em></p>
+                <p><span i18n="link-1">Android Client : </span><a href="https://gitee.com/HIT-XueBaBa/HIT-XueBaBa.github.io/attach_files/639378/download/shadowsocksr-android-3.5.4.apk" i18n="link">Download Link</a></p>
+                <p><span i18n="link-2">Win PC Client : </span><a href="https://gitee.com/HIT-XueBaBa/HIT-XueBaBa.github.io/attach_files/639377/download/ShadowsocksR-win-4.9.2.zip" i18n="link">Download Link</a></p>
               </div>
               
               <!--test begin--> 
@@ -174,7 +245,7 @@
               
               <div class="author-info">
                 <h4 class="author">Shadowsocks-R</h4>
-                <h5 class="company">2021</h5>
+                <h5 class="company" i18n="year">2021</h5>
                 <div class="icon"> <i class="fas fa-quote-right"></i> </div>
               </div>
             </div>
@@ -183,88 +254,17 @@
         </section>
         <!-- End of Proxy Subpage --> 
         
-        <!-- About Me Subpage -->
-        <section data-id="about-me" class="animated-section">
-          <div class="page-title">
-            <h2>About <span>Me</span></h2>
-          </div>
-          <div class="section-content"> 
-            <!-- Personal Information -->
-            <div class="row">
-              <div class="col-xs-12 col-sm-7">
-                <p>I received my bachelor degree in engineering from the School of Computer Science and Technology of Harbin Institute of Technology in 2020. 
-                  I am a single boy who is addicted to computer technology want to leave my own footprints on the Internet. I’m also an avid fan of LeBron James, 
-                  but I haven not played basketball for a long time.</p>
-              </div>
-              <div class="col-xs-12 col-sm-5">
-                <div class="info-list">
-                  <ul>
-                    <li> <span class="title">Age</span> <span class="value">22</span> </li>
-                    <li> <span class="title">Residence</span> <span class="value">PRC</span> </li>
-                    <li> <span class="title">Address</span> <span class="value">BaoDing, HeBei</span> </li>
-                    <li> <span class="title">e-mail</span> <span class="value">1160300207@stu.hit.edu.cn</span> </li>
-                    <li> <span class="title">Phone</span> <span class="value">+86 182 3323 8225</span> </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <!-- End of Personal Information -->
-            
-            <div class="white-space-20"></div>
-            
-            <!-- Services -->
-            <div class="row">
-              <div class="col-xs-12 col-sm-12">
-                <div class="block-title">
-                  <h3>What <span>I Do</span></h3>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12 col-sm-6">
-                <div class="col-inner">
-                  <div class="info-list-w-icon">
-                    <div class="info-block-w-icon">
-                      <div class="ci-icon"> <i class="lnr lnr-laptop-phone"></i> </div>
-                      <div class="ci-text">
-                        <h4>Web Design</h4>
-                        <p>In a sense, compared to back-end development, the front-end excites me a lot. Perhaps because the front-end products are always like a exquisite artwork, giving me the enjoyment of beauty.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xs-12 col-sm-6">
-                <div class="col-inner">
-                  <div class="info-list-w-icon">
-                    <div class="info-block-w-icon">
-                      <div class="ci-icon"> <i class="lnr lnr-pencil"></i> </div>
-                      <div class="ci-text">
-                        <h4>Translation</h4>
-                        <p>I'm not very good at English, but I always don't mind reading English documents, and I am quite willing to translate them into Chinese to help more people</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- End of Services --> 
-            
-          </div>
-        </section>
-        <!-- End of About Me Subpage --> 
-        
         <!-- Contact Subpage -->
         <section data-id="contact" class="animated-section" onload="initMap()">
           <div class="page-title">
-            <h2>Contact</h2>
+            <h2 i18n="p-4">Contact</h2>
           </div>
           <div class="section-content">
             <div class="row"> 
               <!-- Contact Info -->
               <div class="col-xs-12 col-sm-4">
                 <div class="lm-info-block gray-default"> <i class="lnr lnr-map-marker"></i>
-                  <h4>BaoDing, HeBei</h4>
+                  <h4 i18n="address">BaoDing, HeBei</h4>
                   <span class="lm-info-block-value"></span> <span class="lm-info-block-text"></span> </div>
                 <div class="lm-info-block gray-default"> <i class="lnr lnr-phone-handset"></i>
                   <h4>+86 182-3323-8225</h4>
@@ -304,7 +304,7 @@
                                 </script>
                             <div id="container" class='map'></div> -->
                 <div class="block-title">
-                  <h3>How Can I <span>Help You?</span></h3>
+                  <h3><b i18n="contact-subtitle-1">How Can I</b> <span i18n="contact-subtitle-2">Help You?</span></h3>
                 </div>
                 <form id="contact_form" class="contact-form" action="contact_form/contact_form.php" method="post">
                   <div class="messages"></div>
@@ -313,19 +313,19 @@
                       <div class="left-column">
                         <div class="form-group form-group-with-icon">
                           <input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" data-error="Name is required.">
-                          <label>Full Name</label>
+                          <label i18n="label-1">Full Name</label>
                           <div class="form-control-border"></div>
                           <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group form-group-with-icon">
                           <input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
-                          <label>Email Address</label>
+                          <label i18n="label-2">Email Address</label>
                           <div class="form-control-border"></div>
                           <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group form-group-with-icon">
                           <input id="form_subject" type="text" name="subject" class="form-control" placeholder="" required="required" data-error="Subject is required.">
-                          <label>Subject</label>
+                          <label i18n="label-3">Subject</label>
                           <div class="form-control-border"></div>
                           <div class="help-block with-errors"></div>
                         </div>
@@ -333,7 +333,7 @@
                       <div class="right-column">
                         <div class="form-group form-group-with-icon">
                           <textarea id="form_message" name="message" class="form-control" placeholder="" rows="7" required="required" data-error="Please, leave me a message."></textarea>
-                          <label>Message</label>
+                          <label i18n="label-4">Message</label>
                           <div class="form-control-border"></div>
                           <div class="help-block with-errors"></div>
                         </div>
@@ -342,7 +342,7 @@
                     
                     <!-- <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI"></div> -->
                     
-                    <input type="submit" class="button btn-send" value="Send message">
+                    <input type="submit" class="button btn-send" value="Send message" i18n="submit">
                   </div>
                 </form>
               </div>
@@ -373,6 +373,7 @@
 <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrDf32aQTCVENBhFJbMBKOUTiUAABtC2o"></script>--> 
 <!--<script src="js/jquery.googlemap.js"></script>--> 
 <script type="text/javascript" src="js/validator.js"></script> 
-<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/main.js"></script> 
+<script src="js/jquery.i18n.min.js"></script>
 </body>
 </html>
