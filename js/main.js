@@ -338,7 +338,7 @@
             if (lang == "zh"){
                 $("[i18n]").i18n({
                     defaultLang: "en",
-                    filePath: "lang/",
+                    filePath: "https://cdn.jsdelivr.net/gh/HIT-XueBaBa/HIT-XueBaBa.github.io/lang/",
                     filePrefix: "",
                 });
                 lang = "en";
@@ -347,7 +347,7 @@
             else {
                 $("[i18n]").i18n({
                     defaultLang: "zh",
-                    filePath: "lang/",
+                    filePath: "https://cdn.jsdelivr.net/gh/HIT-XueBaBa/HIT-XueBaBa.github.io/lang/",
                     filePrefix: "",
                 });
                 lang = "zh";
