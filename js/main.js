@@ -323,7 +323,7 @@
         // $("#qqmap").addMarker({
         //     address: "S601 Townsend Street, San Francisco, California, USA", // Your Address. Change it
         // });
-        var lang = "zh";
+        var lang = "en";
         $("[i18n]").i18n({
             defaultLang: lang,
             filePath: "lang/",
@@ -335,22 +335,22 @@
             //      }
         });
         $("#change-lang").click(function () {
-            if (lang == "zh"){
-                $("[i18n]").i18n({
-                    defaultLang: "en",
-                    filePath: "https://cdn.jsdelivr.net/gh/HIT-XueBaBa/HIT-XueBaBa.github.io/lang/",
-                    filePrefix: "",
-                });
-                lang = "en";
-            }
-            //   console.log("zh");
-            else {
+            if (lang == "en"){
                 $("[i18n]").i18n({
                     defaultLang: "zh",
                     filePath: "https://cdn.jsdelivr.net/gh/HIT-XueBaBa/HIT-XueBaBa.github.io/lang/",
                     filePrefix: "",
                 });
                 lang = "zh";
+            }
+            //   console.log("zh");
+            else {
+                $("[i18n]").i18n({
+                    defaultLang: "en",
+                    filePath: "https://cdn.jsdelivr.net/gh/HIT-XueBaBa/HIT-XueBaBa.github.io/lang/",
+                    filePrefix: "",
+                });
+                lang = "en";
             }
             // console.log("en");
         });
